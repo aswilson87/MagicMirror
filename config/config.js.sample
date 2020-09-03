@@ -24,7 +24,7 @@ var config = {
 	language: "en",
 	timeFormat: 24,
 	units: "metric",
-test
+
 	modules: [
 		{
 			module: "alert",
