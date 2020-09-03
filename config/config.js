@@ -67,13 +67,13 @@ var config = {
         title: "On Tap!",
         leftTap: {
           name: "Seltzer",
-          description: "A bubbly lightly flavored  water",
+          description: "A bubbly water",
           abv: "0%",
           ibu: "0",
         },
         rightTap: {
           name: "Seltzer",
-          description: "A bubbly lightly flavored  water",
+          description: "A bubbly water",
           abv: "0%",
           ibu: "0",
         },
