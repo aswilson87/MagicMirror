@@ -1,0 +1,34 @@
+.mmm-beers-table {
+	table-layout: fixed;
+	max-width: 450px;
+	text-align: center;
+	padding-bottom: 45px;
+}
+.mmm-beers-name{
+	border-top: 1px solid gray;
+	font-size:large;
+	font: bold;
+	padding: 10px;
+}
+.mmm-beers-description{
+	border-top: 1px solid gray;
+	font-size: smaller;
+	padding: 10px;
+}
+.mmm-beers-abv{
+	border-top: 1px solid gray;
+	font-size: smaller;
+	padding: 10px;
+}
+.mmm-beers-ibu{
+	border-top: 1px solid gray;
+	font-size: smaller;
+}
+.mmm-beers-leftTap{
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+.mmm-beers-rightTap{
+	border-top: 1px solid gray;
+	padding:10px;
+}
