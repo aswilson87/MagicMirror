@@ -1,0 +1,248 @@
+.weatherforecast .day {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.weatherforecast .weather-icon {
+  padding-right: 5px;
+  text-align: center;
+}
+
+.weatherforecast .min-temp {
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+.weatherforecast .rain {
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+.weatherforecast tr.colored .min-temp {
+    color: #BCDDFF;
+}
+
+.weatherforecast tr.colored .max-temp {
+    color: #FF8E99;
+}
+/*delete below this line if this doesnt work*/
+.wi-cloudy:before {
+  content: url("icon/26.png");
+}
+
+.weatherforecast .wi-cloudy:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/26.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-cloudy-windy:before {
+  content: url("icon/23.png");
+}
+
+.weatherforecast .wi-cloudy-windy:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/23.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-showers:before{
+  content: url("icon/9.png"):
+}
+
+.weatherforecast .wi-showers:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/9.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-rain:before{
+  content: url("icon/12.png");
+}
+
+.weatherforecast .wi-rain:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/12.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-thunderstorm:before{
+  content: url("icon/3.png");
+}
+
+.weatherforecast .wi-thunderstorm:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/3.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-snow:before{
+  content: url("icon/14.png");
+}
+
+.weatherforecast .wi-snow:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/14.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-fog:before{
+  content: url("icon/22.png");
+}
+
+.weatherforecast .wi-fog:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/22.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-clear:before{
+  content: url("icon/31.png");
+}
+
+.weatherforecast .wi-night-clear:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/31.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-showers:before{
+  content: url("icon/45.png");
+}
+
+.weatherforecast .wi-night-showers:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/45.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-rain:before{
+  content: url("icon/45.png");
+}
+
+.weatherforecast .wi-night-rain:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/45.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-thunderstorm:before{
+  content: url("icon/47.png");
+}
+
+.weatherforecast .wi-night-thunderstorm:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/47.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-snow:before{
+  content: url("icon/46.png");
+}
+
+.weatherforecast .wi-night-snow:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/46.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-alt-cloudy-windy:before{
+  content: url("icon/24.png");
+}
+
+.weatherforecast .wi-night-alt-cloudy-windy:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/24.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-day-cloudy:before {
+  content: url("icon/28.png");
+}
+
+.weatherforecast .wi-day-cloudy:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/28.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-day-sunny:before {
+  content: url("icon/36.png");
+}
+
+.weatherforecast .wi-day-sunny:before {
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/36.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-cloudy:before {
+  content: url("icon/27.png");
+}
+
+.weatherforecast .wi-night-cloudy:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/27.png");
+  background-size: 43.75px 30px;
+}
+
+.wi-night-rain:before {
+  content: url("icon/45.png");
+}
+
+.weatherforecast .wi-night-rain:before{
+  content: "";
+  height:30px;
+  width:43.75px;
+  display: block; 
+  background-image : url("icon/45.png");
+  background-size: 43.75px 30px;
+}
