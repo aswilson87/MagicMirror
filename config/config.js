@@ -61,6 +61,7 @@ var config = {
 			position: "lower_third",
 		},
 		{
+			disabled: true,
 			module: "MMM-beers",
 			position: "bottom_left",
 			config: {
@@ -137,31 +138,31 @@ var config = {
 				showPublishDate: true,
 			},
 		},
+		// {
+		// 	disable: true,
+		// 	module: "MMM-uber",
+		// 	position: "bottom_right",
+		// 	header: "Uber (Rosenberg)",
+		// 	config: {
+		// 		lat: 29.558250, // use your exact pickup loaction
+		// 		lng: -95.808830, // use your exact pickup loaction
+		// 		uberServerToken: "w9z_lGHo02Fd3E75c7JVAi8IbpcfA7tklCm3iMZt",
+		// 	},
+		// },
+		// {
+		// 	disable: true,
+		// 	module: "MMM-lyft",
+		// 	position: "bottom_right",
+		// 	header: "Lyft (Rosenberg)",
+		// 	config: {
+		// 		lat: 29.558250, // use your exact pickup loaction
+		// 		lng: -95.808830, // use your exact pickup loaction
+		// 		clientId: "CeGwNKdQkTrt",
+		// 		clientSecret: "CsBrB_Ok31SbR5B7z3OY1h2y0m2tjQHv",
+		// 	},
+		// },
 		{
-			disable: true,
-			module: "MMM-uber",
-			position: "bottom_right",
-			header: "Uber (Rosenberg)",
-			config: {
-				lat: 29.558250, // use your exact pickup loaction
-				lng: -95.808830, // use your exact pickup loaction
-				uberServerToken: "w9z_lGHo02Fd3E75c7JVAi8IbpcfA7tklCm3iMZt",
-			},
-		},
-		{
-			disable: true,
-			module: "MMM-lyft",
-			position: "bottom_right",
-			header: "Lyft (Rosenberg)",
-			config: {
-				lat: 29.558250, // use your exact pickup loaction
-				lng: -95.808830, // use your exact pickup loaction
-				clientId: "CeGwNKdQkTrt",
-				clientSecret: "CsBrB_Ok31SbR5B7z3OY1h2y0m2tjQHv",
-			},
-		},
-		{
-			disabled: false,
+			disabled: true,
 			module: "MMM-AVStock",
 			position: "bottom_bar", //"bottom_bar" is better for `mode:ticker`
 			config: {
